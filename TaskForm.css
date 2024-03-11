@@ -1,0 +1,40 @@
+/* TaskForm.css */
+
+.task-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-button {
+    background-color: rgb(11, 183, 11); /* Pink button background */
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-button:hover {
+    background-color: rgb(3, 79, 3); /* Darker pink on hover */
+    transform: scale(1.05); /* Slight scale on hover */
+  }
+  
+  input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid green; /* Dark pink border for input */
+    border-radius: 8px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: rgb(1, 20, 1); /* Dark purple text color */
+  }
+  
+  input::placeholder {
+    color: #bbb;
+  }
+  
+  /* Optional: You can customize further based on your preferences */
+  
